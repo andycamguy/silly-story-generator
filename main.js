@@ -1,4 +1,4 @@
-/complete variable and function definitions
+//complete variable and function definitions
 const customName = document.getElementById('customname');
 const randomize = document.querySelector('.randomize');
 const story = document.querySelector('.story');
@@ -56,4 +56,5 @@ let xItem =randomValueFromArray(insertX);
 let yItem = randomValueFromArray(insertY);
 let zItem = randomValueFromArray(insertZ);
 
+randomize.addEventListener('click', result);
 
