@@ -23,10 +23,10 @@ function result() {
   let xItem =randomValueFromArray(insertX);
   let yItem = randomValueFromArray(insertY);
   let zItem = randomValueFromArray(insertZ);
-  newStory =.newStory.replace(':itemx:'insertX)
-  newStory =.newStory.replace(':itemy:'inserty)
-  newStory =.newStory.replace(':itemz:'insertZ)
-  newStory =.newStory.replace(':itemx:'insertX)
+  newStory =.newStory.replace(':insertX:'itemX)
+  newStory =.newStory.replace(':insertY:'itemY)
+  newStory =.newStory.replace(':insertZ:'itemZ)
+  newStory =.newStory.replace(':insertX:'intemX)
 
 
   if(customName.value !== '') {
