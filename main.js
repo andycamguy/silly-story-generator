@@ -46,11 +46,6 @@ function result() {
   story.style.visibility = 'visible';
 }
 
- 
-  story.textContent = NewStory;
-  story.style.visibility = 'visible';
-}
-
 
 randomize.addEventListener('click', result);
 
