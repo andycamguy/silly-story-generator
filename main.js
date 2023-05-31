@@ -9,7 +9,7 @@ function randomValueFromArray(array){
 }
 
 //raw text settings
-var storyText = "It was 94 fahrenheit outside, so :xItem: went for a walk. When they got to :yItem:, they stared in horror for a few moments, then :zItem:. Bob saw the whole thing, but was not surprised — :xItem: weighs 300 pounds, and it was a hot day.";
+var storyText = "It was 94 fahrenheit outside, so ${xItem} went for a walk. When they got to ${yItem}, they stared in horror for a few moments, then ${zItem}. Bob saw the whole thing, but was not surprised — ${xItem} weighs 300 pounds, and it was a hot day.";
 const insertX = 
 [ "Willy the Goblin",
 "Big Daddy",
